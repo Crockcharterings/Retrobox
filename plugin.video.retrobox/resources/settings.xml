@@ -1,0 +1,12 @@
+<settings>
+	<category label="Options">
+	<setting id="langType" type="labelenum" label="Select Language" values="Hindi|English|Kannada|Tamil|Telugu|Malayalam|Marathi|Bengali" default="Hindi"/>
+	<setting id="tvsortType" type="labelenum" label="TV Shows sorting by" values="Default|Name" default="Default" />
+	<setting id="moviessortType" type="labelenum" label="Movies sorting by" values="Name|Newest|Popularity" default="Newest" />
+	<setting id="qualityType" type="labelenum" label="Video Quality Selection" values="Highest|720p|404p|360p|Let me Choose" default="Let me Choose"/>
+	<setting id="perPage" type="labelenum" label="Movies per Page" values="20|40|60" default="20" />
+	<setting id="EnableIP" type="bool" label="Enable Indian IP address?" default="false" />
+	<setting type="sep" />
+	<setting label="any Indian IP address (http://bit.ly/1LhsHMX)" type="ipaddress" enable="!eq(-2,false)" id="ipaddress" default="0.0.0.0"/>
+	</category>
+</settings>

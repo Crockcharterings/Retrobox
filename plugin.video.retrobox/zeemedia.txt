@@ -1,0 +1,16 @@
+http://api.android.zeeone.com/mobile/get/show/bhabi-ji-ghar-par-hai
+
+Gives show information
+
+http://api.android.zeeone.com/mobile/get/show_videos/bhabi-ji-ghar-par-hai/0/10/newest
+
+Gives the newest available episodes
+
+
+http://api.android.zeeone.com/mobile/get/show_video/bhabi-ji-ghar-par-hain-episode-291-april-11-2016-full-episode
+
+Provide the slug and it'll provide link with hmac
+
+
+
+http://pmd.dittotv3.com.edgesuite.net/draco/shows/and_tv/Bhabiji_Ghar_Par_Hai/April/11042016/Bhabiji_Ghar_Par_Hai_Episode_11042016_100.mp4?hdnea=st=1460996643~exp=1460998443~acl=%2F%2A~hmac=f67d87148df522bfbbf6c93a646d862418de4694c4b80f0bf8ab0c3cd983b0a8

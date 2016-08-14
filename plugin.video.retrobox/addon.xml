@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.retrobox"
+       name="RetroBox"
+       version="0.1.0"
+       provider-name="KAER">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.addon.common" version="2.0.0" />
+		<import addon="script.module.requests" version="2.7.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en"> Streams all shows of ZEE Group and Star Group, TV18 and Sony Network are currently in progress.</summary>
+        <platform>all</platform>
+        <summary>RetroBox - Keeping the old ways in the new generation</summary>
+		<description>Hail fuckin Hydra !!!!</description>
+        <email>darkmoontk@gmail.com</email>
+    </extension>
+</addon>
