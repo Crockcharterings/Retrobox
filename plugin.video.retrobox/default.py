@@ -230,9 +230,8 @@ def ozee_play_episode():
 	addDir(0, "[480] "+name, preurl[0]+links[8], image, isplayable=True)
 	
 def voot_get_episode(url):
-	with open(url, 'r') as myfile:
-		data=myfile.read()
-	bobo = json.loads(data)
+	html = make_request(url)
+	bobo = json.loads(html)
 	for var in bobo:
 		name = var['MediaName']
 		url = var['URL']
