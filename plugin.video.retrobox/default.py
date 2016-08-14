@@ -166,23 +166,23 @@ def new_menu():
 	addDir(7, title4, url4, show_img4, False)
 	
 	title5="jhalak-dikhhla-jaa-s09"
-	url5="reak.in/ninja/kodi/jhalaks09.json"
+	url5="http://reak.in/ninja/kodi/jhalaks09.json"
 	show_img5="http://kimg.voot.com/kimg/c5dd5c3fee9745d595c50b91b863c4ed_1280X720.jpg"
 	addDir(61, title5, url5, show_img5, False)
 	
 	title6="pokemon-gotta-catch-em-'all"
-	url6="reak.in/ninja/kodi/pokemon.json"
-	show_img6="https://en.wikipedia.org/wiki/Pok%C3%A9mon#/media/File:English_Pok%C3%A9mon_logo.svg"
+	url6="http://reak.in/ninja/kodi/pokemon.json"
+	show_img6="http://www.flickeringmyth.com/wp-content/uploads/2014/07/Pokemon-logo.gif"
 	addDir(61, title6, url6, show_img6, False)
 	
 	
-	title6="sony-mix-live"
-	url6="/home/ashish/.kodi/addons/plugin.video.retrobox/pokemon.json"
-	show_img6="https://en.wikipedia.org/wiki/Pok%C3%A9mon#/media/File:English_Pok%C3%A9mon_logo.svg"
-	addDir(61, title6, url6, show_img6, False)
+	#title6="sony-mix-live"
+	#url6="/home/ashish/.kodi/addons/plugin.video.retrobox/pokemon.json"
+	#show_img6="https://en.wikipedia.org/wiki/Pok%C3%A9mon#/media/File:English_Pok%C3%A9mon_logo.svg"
+	#addDir(61, title6, url6, show_img6, False)
 
 	## Add more shows between these tags ##
-	addDir(24, 'Star Sports', '', '','')
+	addDir(24, 'Star Sports', '', 'https://upload.wikimedia.org/wikipedia/en/0/01/STAR_Sports_Logo_New.jpg', False)
 	
 	addDir(101,'AajTak', '', "http://media2.intoday.in/aajtak/1.0.2/resources/images/logo.jpg", False)
 	
