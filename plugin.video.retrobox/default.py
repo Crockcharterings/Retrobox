@@ -144,7 +144,7 @@ def make_request(url):
 
 
 def new_menu():
-	
+	'''	
 	title1="mere-angne-mein"
 	url1="http://account.hotstar.com/AVS/besc?action=GetCatalogueTree&categoryId=4210&channel=PCTV"
 	show_img1="http://media0-starag.startv.in/r1/thumbs/PCTV/78/4278/PCTV-4278-hs.jpg"
@@ -169,6 +169,12 @@ def new_menu():
 	url5="http://reak.in/ninja/kodi/jhalaks09.json"
 	show_img5="http://kimg.voot.com/kimg/c5dd5c3fee9745d595c50b91b863c4ed_1280X720.jpg"
 	addDir(61, title5, url5, show_img5, False)
+	'''
+
+	slug2 = "bhabi-ji-ghar-par-hai"
+	smallimage2 = "http://akamai.vidz.zeecdn.com/ozee/shows/"+slug2+"/listing-image-small.jpg"
+	episodeurl2 = "http://api.android.zeeone.com/mobile/get/show_videos/"+slug2+"/0/50/newest"
+	addDir(51, slug2 , episodeurl2, smallimage2, False)
 	
 	title6="pokemon-gotta-catch-em-'all"
 	url6="http://reak.in/ninja/kodi/pokemon.json"
